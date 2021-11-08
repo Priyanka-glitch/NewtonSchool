@@ -1,0 +1,57 @@
+body{
+    background: white;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1250px;;
+    height: 1500px;
+    background: lightgray;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.container .left{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    text-align: center;
+}
+.container .right{
+    position: relative;
+    background: gray;
+    padding: 40px;
+}
+.container .left .name{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container .left .email{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.container .left .image{
+    border-radius: 50%;
+}
+.container .right .first{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+    position: flex;
+}
+
+.details {
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.inner-container {
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
